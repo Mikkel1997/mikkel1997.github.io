@@ -1,3 +1,28 @@
-﻿theme: jekyll-theme-minimal
-title: Mikkels's homepage
-description: Bookmark this to keep an eye on my project updates!
+﻿      
+# Velkommen til Jekyll!
+#
+# Denne fil indeholder konfigurationer for din side.
+# Du kan finde mere information her: https://jekyllrb.com/docs/configuration/
+
+# --- Generelle sideindstillinger ---
+title: Mikkels Portefølje
+description: >- # Beskrivelsen af din side, god for søgemaskiner.
+  En portefølje der dokumenterer min læring og udvikling 
+  i Appudvikling og Machine Learning/AI.
+
+# --- Byggeindstillinger ---
+theme: jekyll-theme-minimal # Temaet for din side. Minimal er et godt, rent valg.
+
+plugins:
+  - jekyll-seo-tag # En super god plugin til at håndtere sidetitler og SEO.
+
+# --- Standardværdier ---
+# Her kan vi sætte standardværdier for hele siden.
+defaults:
+  -
+    scope:
+      path: "" # Gælder for alle filer
+    values:
+      lang: "da" # Sætter sproget til dansk for hele siden
+
+    

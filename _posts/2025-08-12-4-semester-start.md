@@ -10,17 +10,15 @@ Det her er mit første indlæg for semesteret – mit “før-billede”. Hvor s
 ## Fokusområder
 I vores **Guild**-projekt arbejder jeg med to hovedspor:
 
-1. **Appudvikling (web og mobil)** – bygge en funktionel, brugervenlig løsning, der fungerer på tværs af platforme.  
+1. **Appudvikling (web og mobil)** – bygge en funktionel, brugervenlig løsning.  
 2. **Machine Learning & AI** – integrere en intelligent funktion, der lærer af brugeren og giver personlige anbefalinger.  
-
-De supplerer hinanden perfekt: appudvikling er fundamentet, AI gør den smart.  
-
+ 
 ## Udgangspunkt
-- **Appudvikling:** Kendskab til HTML, CSS og JavaScript. Har lavet småprojekter, men mangler erfaring med større frameworks og cross-platform teknologier.  
+- **Appudvikling:** Kendskab til HTML og CSS. Har lavet småprojekter, men mangler erfaring med større frameworks og cross-platform teknologier.  
 - **AI:** Teoretisk forståelse, men ingen praktisk erfaring med at træne eller integrere modeller.  
 
 ## Mål for semesteret
-- Udvikle en funktionel cross-platform app.  
+- Udvikle en funktionel web eller mobil app.  
 - Lave en proof-of-concept AI-model, der kan give anbefalinger ud fra brugerdata.  
 - Blive bedre til at give og modtage teknisk feedback i produkt- og procesarbejdet.  
 

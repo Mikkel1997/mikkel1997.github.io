@@ -5,7 +5,7 @@ date: 05-09-2025
 tags: [Refleksion, Proces]
 ---
 
-Det har været svært at starte med opslag til min portefølje, men her er en opdatering til mit første indlæg. Og hvordan jeg har arbejdet med at forstå Machine Learning (ML) og AI.   
+Det har været svært at starte med opslag til min portefølje, men her er en opdatering til mit første indlæg. Og hvordan jeg har arbejdet med at forstå Datascience, Machine Learning (ML) og AI.   
 
 ## Fokusområder
 Jeg har ændret mit fokus fra mit oprindelige indlæg: Jeg har skiftet Appudvikling ud med et dybere fokus på Machine Learning & AI. Mit nye fokusområde er:

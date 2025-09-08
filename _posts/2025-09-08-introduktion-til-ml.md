@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduktion til Machine Learning"
-date: 2025-09-05
+date: 2025-09-08
 tags: [Teori, Proces, Reflektion]
 ---
 

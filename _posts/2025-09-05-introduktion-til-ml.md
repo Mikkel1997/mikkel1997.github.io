@@ -2,7 +2,7 @@
 layout: post
 title: "Introduktion til Machine Learning"
 date: 2025-09-05
-tags: [Refleksion, Proces]
+tags: [Teori, Proces, Reflektion]
 ---
 
 Det har været svært at starte med opslag til min portefølje, men her er en opdatering til mit første indlæg. Og hvordan jeg har arbejdet med at forstå Datascience, Machine Learning (ML) og AI.   

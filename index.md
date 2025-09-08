@@ -4,7 +4,7 @@ title: Forside
 ---
 
 # Velkommen til min Portefølje
-Her kan du følge med i min læring og udvikling gennem semestret.
+Her kan du følge med i min læring indenfor Datascience, ML og AI gennem semestret.
 
 ## Mine Indlæg
 <ul>

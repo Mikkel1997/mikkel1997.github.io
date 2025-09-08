@@ -25,4 +25,6 @@ defaults:
     values:
       lang: "da" # Sætter sproget til dansk for hele siden
 
+future: true # Tillader publicering af indlæg med fremtidige datoer
+
     

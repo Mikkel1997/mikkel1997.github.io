@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: "Matematik for Machine Learning: Vektorer og Matricer"
-date: 08-09-2025
+date: 2025-09-08
 tags: [Teori, Proces]
 ---
 

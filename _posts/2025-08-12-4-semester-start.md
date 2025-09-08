@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: "4. Semester Start"
-date: 2025-08.12
+date: 2025-08-12
 tags: [Refleksion, Proces, Start]
 ---
 

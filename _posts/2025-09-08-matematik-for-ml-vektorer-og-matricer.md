@@ -91,7 +91,17 @@ Matixen:[2  3]  med vektoren (3,2) giver: (2*3 + 3*2) = 12
 - Som vi kan se på eksemplet med rotation og spejling, er matrix multiplikation ikke kommutativ, hvilket betyder at A * B ikke nødvendigvis er lig med B * A.
 - Associativitet: (A * B) * C = A * (B * C)
 
-**Inverse Matricer**
+**Matrixinversen**
+- Vi kan isolere vektoren x i ligningen Ax = b ved at gange begge sider med matrixinversen A^(-1), hvilket giver: x = A^(-1) * b. Dette fungerer kun, hvis A er en kvadratisk matrix og har en invers (dvs. dens determinant er ikke nul).
+- For at finde matrixinversen kan vi bruge forskellige metoder, såsom Gauss-Jordan elimination eller ved hjælp af adjungering og determinant. For en 2x2 matrix A = [a b; c d], er inversen givet ved: A^(-1) = (1/det(A)) * [d -b; -c a], hvor det(A) = ad - bc.
+- Når man bruger elimination, transformerer man i praktisk matricen til identitetsmatricen ved hjælp af rækkeoperationer. De samme rækkeoperationer anvendes på en identitetsmatrix for at finde inversen.
+- Hvis en matrix ikke er kvadratisk eller har en determinant på nul, har den ikke en invers. I sådanne tilfælde
+
+**Determinanten og linæer uafhængighed**
+- Determinanten af en kvadratisk matrix A, betegnet som det(A), er en skalar værdi, der giver information om matrixens egenskaber. For en 2x2 matrix A = [a b; c d], er determinanten givet ved: det(A) = ad - bc.
+- det(a) = 0 betyder at rækkerne eller kolonnerne i matricen er lineært afhængige, hvilket betyder at en række eller kolonne kan skrives som en lineær kombination af de andre. Dette indebærer, at matrixen ikke har en invers, og at systemet af ligninger Ax = b enten har ingen løsning eller uendeligt mange løsninger.
+- det(a) ≠ 0 betyder at rækkerne eller kolonnerne i matricen er lineært uafhængige, hvilket betyder at ingen række eller kolonne kan skrives som en lineær kombination af de andre. Dette indebærer, at matrixen har en invers, og at systemet af ligninger Ax = b har en unik løsning for enhver vektor b.
+- Dette betyder at man skal sikre at determinanten ikke er nul for at kunne finde en unik løsning til et system af lineære ligninger. Ellers kan du miste information om løsningen.
 
 
        

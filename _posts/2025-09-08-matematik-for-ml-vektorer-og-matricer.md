@@ -103,5 +103,39 @@ Matixen:[2  3]  med vektoren (3,2) giver: (2*3 + 3*2) = 12
 - det(a) ≠ 0 betyder at rækkerne eller kolonnerne i matricen er lineært uafhængige, hvilket betyder at ingen række eller kolonne kan skrives som en lineær kombination af de andre. Dette indebærer, at matrixen har en invers, og at systemet af ligninger Ax = b har en unik løsning for enhver vektor b.
 - Dette betyder at man skal sikre at determinanten ikke er nul for at kunne finde en unik løsning til et system af lineære ligninger. Ellers kan du miste information om løsningen.
 
+**Einstein summations konvention**
+- Einstein summations konvention er en notation, der bruges til at forenkle udtryk, der involverer summation over indekser i tensorer og matricer. Ifølge denne konvention antages det, at når en indeks optræder to gange i et udtryk (en gang som en øvre indeks og en gang som en nedre indeks), skal der implicit summeres over alle mulige værdier af denne indeks.
+- For eksempel, hvis vi har en matrix A med elementer A_ij og en matrix B med elementer B_jk, kan vi skrive matrixmultiplikationen C_ik = Σ_j A_ij * B_jk som C_ik = A_ij * B_jk uden at skrive summationstegnet, fordi j optræder to gange i udtrykket.
+- Denne konvention gør det muligt at skrive komplekse matematiske udtryk på en mere kompakt og læsbar måde, hvilket er særligt nyttigt i fysik og ingeniørvidenskab, hvor tensorer ofte bruges til at beskrive fysiske fænomener.
+- Denne konvention gør det nemmere i kode, hvor du kun skal køre 3 loops over i, j og k i stedet for at skrive en masse summationer.
+- Det er vigtigt at bemærke, at Einstein summations konvention kun gælder for indekser, der optræder to gange i et udtryk. Indekser, der optræder kun én gang, skal ikke summeres over.
+- Vi kan regne med matricer der ikke har samme dimensioner, så længe de er kompatible for multiplikation. For eksempel kan en 2x3 matrix ganges med en 3x4 matrix, hvilket resulterer i en 2x4 matrix.
+
+**Dotprodukt med einstein summations konvention**
+- Dot produktet af to vektorer A og B kan skrives som A · B = A_i * B_i ved hjælp af Einstein summations konvention, hvor i summeres over alle komponenter af vektorerne.
+- For eksempel, hvis A = (a1, a2, a3) og B = (b1, b2, b3), så er dot produktet A · B = a1*b1 + a2*b2 + a3*b3, hvilket kan skrives som A_i * B_i ved at antage summation over i fra 1 til 3.
+- Denne notation gør det nemmere at arbejde med dot produkter i højere dimensioner og i mere komplekse matematiske udtryk, især når
+
+**Matricer der skifter basis**
+- Når vi har en vektor repræsenteret i en bestemt basis, kan vi ændre basis ved at bruge en transformationsmatrix. Hvis vi har en vektor x repræsenteret i basis B1 og ønsker at repræsentere den i basis B2, kan vi bruge en matrix P, der transformerer koordinaterne fra B1 til B2.
+- Hvis P er transformationsmatrixen, og x_B1 er vektoren i basis B1, så kan vi finde vektoren i basis B2 ved at gange P med x_B1: x_B2 = P * x_B1.
+- For at finde transformationsmatrixen P, kan vi bruge de nye basisvektorer som kolonner i matricen. Hvis B1 har basisvektorer e1 og e2, og B2 har basisvektorer f1 og f2, så kan vi skrive P som:
+- P = [f1 | f2] * [e1 | e2]^(-1). Hvor [e1 | e2]^(-1) er inversen af matrixen dannet af basisvektorerne i B1.
+- Når vi har transformationsmatrixen P, kan vi bruge den til at konvertere vektorer mellem de to baser. Dette er især nyttigt i machine learning, hvor data ofte skal repræsenteres i forskellige koordinatsystemer for at lette beregninger og analyser.
+- Det er vigtigt at bemærke, at transformationsmatrixen P skal være invertibel for at kunne skifte mellem baser uden tab af information. Hvis P ikke er invertibel, kan vi ikke entydigt konvertere vektorer mellem de to baser.
+
+**Ortogornale matricer**
+- En ortogonal matrix er en kvadratisk matrix A, der opfylder betingelsen A^T * A = I, hvor Q^T er transponeret af A, og I er identitetsmatricen. Dette betyder, at rækkerne (eller kolonnerne) i en ortogonal matrix er ortogonale (vinkelrette) og har en længde på 1 (normeret).
+- Ortogonale matricer: Bevarer længder og vinkler: Når en vektor x transformeres ved en ortogonal matrix Q, bevares dens længde og vinkler i forhold til andre vektorer. Dette gør ortogonale matricer særligt nyttige i geometriske transformationer som rotationer og spejlinger.
+
+**Gram-Schmidt processen**
+- Gram-Schmidt processen er en metode til at omdanne et sæt af lineært uafhængige vektorer til et sæt af ortogonale (eller ortonormale) vektorer.
+- For eksempel, hvis vi har to vektorer v1 og v2, kan vi bruge Gram-Schmidt processen til at finde en ortogonal basis:
+  - Start med den første vektor: u1 = v1
+  - For den anden vektor, fjern komponenten i retning af u1: u2 = v2 - (proj_u1(v2)), hvor proj_u1(v2) er projektionen af v2 på u1. 
+- Normaliser vektorerne (hvis nødvendigt) for at få en ortonormal basis:
+  - e1 = u1 / ||u1||
+  - e2 = u2 / ||u2||
+
 
        

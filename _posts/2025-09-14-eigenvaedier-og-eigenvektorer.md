@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Matematik for Machine Learning: Eigenværdier og Eigenvektorer"
+title: "Matematik for Machine Learning: EigenvÃ¦rdier og Eigenvektorer"
 date: 2025-09-014
 tags: [Teori, Proces]
 ---
 
-I dette bonus indlæg vil jeg dykke ned i eigenværdier og egenvektorer.
+I dette bonus indlÃ¦g vil jeg dykke ned i eigenvÃ¦rdier og egenvektorer.
 
-## Hvad er Eigenværdier og Egenvektorer?
+## Hvad er EigenvÃ¦rdier og Egenvektorer?

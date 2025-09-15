@@ -1,11 +1,16 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="da">
 <head>
     <meta charset="utf-8">
     <title>{{ page.title | default: "Min Portefølje" }}</title>
 </head>
 <body>
+
+    <nav>
+        {% if page.url != "/" %}
+        <a href="javascript:history.back()">⬅ Tilbage</a>
+        {% endif %}
+    </nav>
 
     <main>
         {{ content }}

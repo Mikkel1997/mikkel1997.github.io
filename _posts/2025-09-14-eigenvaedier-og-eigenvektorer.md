@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Matematik for Machine Learning: Eigenværdier og Eigenvektorer"
-date: 2025-09-014
+date: 2025-09-14
 tags: [Teori, Proces]
 ---
 

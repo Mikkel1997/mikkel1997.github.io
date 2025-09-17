@@ -3,6 +3,7 @@ layout: post
 title: "4. Semester Start"
 date: 2025-08-12
 tags: [Refleksion, Proces, Start]
+categories: [Generel]
 ---
 
 Det her er mit første indlæg for semesteret – mit “før-billede”. Hvor står jeg nu? Hvad vil jeg lære? Og hvordan vil jeg bruge porteføljen som mit vigtigste værktøj undervejs?  

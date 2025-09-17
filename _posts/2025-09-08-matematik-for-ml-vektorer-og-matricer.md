@@ -3,7 +3,7 @@ layout: post
 title: "Matematik for Machine Learning: Vektorer og Matricer"
 date: 2025-09-08
 tags: [Teori, Proces]
-categories: [Generel]
+categories: [Teori]
 ---
 
 Dette er det første af 4 teori opslag, dette har fokus på vektorer og matricer.

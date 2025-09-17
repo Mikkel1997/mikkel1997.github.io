@@ -8,67 +8,67 @@ categories: [Generel]
 Ressourcer:
 https://www.mygreatlearning.com/blog/difference-data-science-machine-learning-ai/
 https://www.ibm.com/think/topics/machine-learning
-I dette indlæg vil jeg udforske forskellene og sammenhængene mellem Data Science, Machine Learning (ML) og Artificial Intelligence (AI).
+I dette indlÃ¦g vil jeg udforske forskellene og sammenhÃ¦ngene mellem Data Science, Machine Learning (ML) og Artificial Intelligence (AI).
 
 ## Hvad er Data Science?
 
 Data Science er en bred disciplin, der handler om at indsamle, bearbejde og analysere data for at skabe indsigt.
-Organisationer genererer enorme mængder data, og data science hjælper med at finde mønstre, trække viden ud og omsætte det til handling.
+Organisationer genererer enorme mÃ¦ngder data, og data science hjÃ¦lper med at finde mÃ¸nstre, trÃ¦kke viden ud og omsÃ¦tte det til handling.
 
 **Typiske opgaver for en data scientist:**
 
 - Data wrangling: Rense, strukturere og manipulere data.
-- Dataanalyse: Statistiske metoder til at finde mønstre og trends.
+- Dataanalyse: Statistiske metoder til at finde mÃ¸nstre og trends.
 - Visualisering: Grafiske fremstillinger af data.
 - Prediktiv analyse: Forudsige fremtidige scenarier.
-- Preskriptiv analyse: Anbefale handlinger baseret på data.
-- Værktøjer & teknologier: Python, R, SQL, Hadoop, Spark, Tableau.
+- Preskriptiv analyse: Anbefale handlinger baseret pÃ¥ data.
+- VÃ¦rktÃ¸jer & teknologier: Python, R, SQL, Hadoop, Spark, Tableau.
 
 
 ## Hvad er Artificial Intelligence (AI)?
 
-AI handler om at få maskiner til at efterligne menneskelig intelligens. Det inkluderer at lære, ræsonnere, træffe beslutninger og selv forbedre sig over tid.
+AI handler om at fÃ¥ maskiner til at efterligne menneskelig intelligens. Det inkluderer at lÃ¦re, rÃ¦sonnere, trÃ¦ffe beslutninger og selv forbedre sig over tid.
 
 AI kan opdeles i:
 - Weak AI: Specialiserede systemer (fx Siri, chatbots).
-- General AI: Systemer, der kan lære og udføre forskellige opgaver som et menneske.
-- Strong AI: Hypotetiske systemer med menneskelig bevidsthed og forståelse.
+- General AI: Systemer, der kan lÃ¦re og udfÃ¸re forskellige opgaver som et menneske.
+- Strong AI: Hypotetiske systemer med menneskelig bevidsthed og forstÃ¥else.
 
-Eksempler på AI:
+Eksempler pÃ¥ AI:
 - Virtuelle assistenter (Siri, Alexa).
 - Intelligente robotter.
 - Billed- og stemmegenkendelse.
 
-AI’s styrker: Automatisering, mønstergenkendelse, progressive læringsalgoritmer og beslutningstagning.
+AIâ€™s styrker: Automatisering, mÃ¸nstergenkendelse, progressive lÃ¦ringsalgoritmer og beslutningstagning.
 
 ## Hvad er Machine Learning (ML)?
 
-Machine Learning er en undergren af AI. Her lærer systemer automatisk ud fra data, uden at de skal programmeres eksplicit. ML bruges til at finde mønstre, lave forudsigelser og tilpasse sig nye data.
+Machine Learning er en undergren af AI. Her lÃ¦rer systemer automatisk ud fra data, uden at de skal programmeres eksplicit. ML bruges til at finde mÃ¸nstre, lave forudsigelser og tilpasse sig nye data.
 
 Typer af ML:
 - Supervised learning: Bruger historiske data (input/output-par) til at forudsige resultater.
-- Unsupervised learning: Finder mønstre i ustrukturerede data (fx clustering).
-- Semi-supervised learning: Kombination af de to ovenstående.
-- Reinforcement learning: Lærer gennem feedback og trial-and-error.
+- Unsupervised learning: Finder mÃ¸nstre i ustrukturerede data (fx clustering).
+- Semi-supervised learning: Kombination af de to ovenstÃ¥ende.
+- Reinforcement learning: LÃ¦rer gennem feedback og trial-and-error.
 
-Eksempler på ML:
+Eksempler pÃ¥ ML:
 - Netflix og Spotify anbefalinger.
 - Facebooks auto-tagging i billeder.
-- Søgealgoritmer hos Google.
+- SÃ¸gealgoritmer hos Google.
 
-Værktøjer & teknologier: TensorFlow, Scikit-Learn, Microsoft Azure ML Studio.
+VÃ¦rktÃ¸jer & teknologier: TensorFlow, Scikit-Learn, Microsoft Azure ML Studio.
 
-## Hvordan hænger de sammen?
+## Hvordan hÃ¦nger de sammen?
 
-Man kan se relationen sådan her:
-- Data Science er den brede disciplin, der arbejder med data – indsamling, rensning, analyse, visualisering og indsigt.
-- Machine Learning er en metode inden for både Data Science og AI, som bruges til at lære fra data.
-- Artificial Intelligence er den overordnede vision om at skabe intelligente maskiner – og ML er en af de vigtigste veje dertil.
+Man kan se relationen sÃ¥dan her:
+- Data Science er den brede disciplin, der arbejder med data â€“ indsamling, rensning, analyse, visualisering og indsigt.
+- Machine Learning er en metode inden for bÃ¥de Data Science og AI, som bruges til at lÃ¦re fra data.
+- Artificial Intelligence er den overordnede vision om at skabe intelligente maskiner â€“ og ML er en af de vigtigste veje dertil.
 
 Et godt eksempel er Google Search:
-- Data Science håndterer og analyserer de enorme datamængder.
-- ML bruges til at lære, hvilke resultater der passer bedst til en given søgning.
-- AI gør systemet intelligent ved at forstå konteksten og forudsige, hvad brugeren egentlig leder efter.
+- Data Science hÃ¥ndterer og analyserer de enorme datamÃ¦ngder.
+- ML bruges til at lÃ¦re, hvilke resultater der passer bedst til en given sÃ¸gning.
+- AI gÃ¸r systemet intelligent ved at forstÃ¥ konteksten og forudsige, hvad brugeren egentlig leder efter.
 
 ## Reflektion
-Selvom Data Science, AI og ML ofte nævnes i samme sætning, er de ikke det samme. De overlapper og supplerer hinanden – og tilsammen driver de de fleste moderne teknologier, vi møder i hverdagen.
+Selvom Data Science, AI og ML ofte nÃ¦vnes i samme sÃ¦tning, er de ikke det samme. De overlapper og supplerer hinanden â€“ og tilsammen driver de de fleste moderne teknologier, vi mÃ¸der i hverdagen.

@@ -5,6 +5,8 @@ date: 2025-09-14
 tags: [Teori, Proces]
 categories: [Teori]
 ---
+Ressourcer:
+https://www.coursera.org/learn/linear-algebra-machine-learning/home/module/5
 
 I dette bonus indlæg vil jeg dykke ned i eigenværdier og egenvektorer.
 

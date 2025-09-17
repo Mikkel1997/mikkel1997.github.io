@@ -5,6 +5,8 @@ date: 2025-09-08
 tags: [Teori, Proces]
 categories: [Teori]
 ---
+Ressourcer:
+https://www.coursera.org/learn/linear-algebra-machine-learning/home/module/1
 
 Dette er det første af 4 teori opslag, dette har fokus på vektorer og matricer.
 

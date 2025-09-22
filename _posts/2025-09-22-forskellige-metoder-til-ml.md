@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top 10 Metoder til Tekst-Similaritet"
+title: "10 Forskellige ML Metoder"
 date: 2025-09-22
 tags: [NLP, ML, Tekstanalyse]
 categories: [ML / AI]

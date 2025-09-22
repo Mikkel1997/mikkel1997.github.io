@@ -96,3 +96,5 @@ Man kan se metoderne på et spektrum:
 Valget af metode afhænger af formålet. Til en hurtig prototype er TF-IDF eller SpaCy ofte nok. Til en produktionsløsning med fokus på præcision bør man vælge Sentence Transformers eller en STS-trænet model. API-løsninger kan være et godt kompromis, hvis man vil spare tid på opsætning.
 
 Selvom alle metoder sigter mod at måle tekstlig lighed, er forskellen i graden af **semantisk forståelse**. Hvor TF-IDF kun tæller ord, kan moderne transformer-baserede metoder forstå kontekst, betydning og nuancer hvilket gør dem uundværlige i moderne NLP-applikationer.
+
+I forhold til mit fokus på Machine Learning & AI, vil jeg eksperimentere med flere af disse metoder i mit nuværende projekt.

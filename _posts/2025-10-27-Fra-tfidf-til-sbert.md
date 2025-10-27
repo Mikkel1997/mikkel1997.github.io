@@ -88,9 +88,9 @@ Jeg har blandt andet lært:
 
 Næste skridt vil være at:
 
-- 🔹 Finetune SBERT på et større, mere domænespecifikt datasæt  
-- 🔹 Implementere en webapplikation, hvor man kan uploade et CV og få en relevansscore   
-- 🔹 Integrere modellen med et REST API eller database  
+- Finetune SBERT på et større, mere domænespecifikt datasæt  
+- Implementere en webapplikation, hvor man kan uploade et CV og få en relevansscore   
+- Integrere modellen med et REST API eller database  
 
 ---
 

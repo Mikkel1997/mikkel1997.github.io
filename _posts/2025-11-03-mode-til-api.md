@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fra Model til API – SBERT som Webservice"
-date: 2025-10-20
+date: 2025-11-03
 tags: [NLP, FastAPI, ML, SBERT, Python, REST]
 categories: [ML / AI]
 ---

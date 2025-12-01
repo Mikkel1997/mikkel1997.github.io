@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Opbygning af data"
-date: 2025-11-23
-tags: [MLOps, Logging, SQLite, FastAPI, Data Collection, Python]
-categories: [ML / AI]
+title: "Analyse af API Performance"
+date: 2025-11-26
+tags: [Data Science, Pandas, Matplotlib, Seaborn]
+categories: [Data Science]
 ---
 
 I de forrige indlæg har jeg bygget og hærdet en fuldt funktionel CV-analyse API.

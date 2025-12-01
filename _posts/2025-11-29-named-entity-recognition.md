@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Analyse af API Performance"
-date: 2025-11-26
+title: "Named Entity Recognition"
+date: 2025-11-29
 tags: [Data Science, NLP, NER, SpaCy]
 categories: [Data Science]
 ---
